@@ -1,0 +1,77 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-image: url("test.jpg");
+     background-size: 1200px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.first > li > a{
+     color: white;
+     text-decoration: none;
+     font-size: 30px;
+    
+}
+.first > li{
+     list-style: none;
+}
+.first{
+     display: flex;
+     justify-content: space-around;
+     border-style: double;
+     font-family: 'bad script';
+}
+h1{
+     text-align: center;
+     font-family:'bad script';
+
+
+}
+
+.menu{
+     text-align: center;
+     color: white;
+     padding-top: 200px;
+     font-family: 'Sriracha';
+     
+}
+.menu > h1{
+     text-indent: 40px;
+}
+header > h1{
+     text-align: center;
+     color: white;
+}
+.menu > p{
+     color: white;
+     text-align: center;
+     font-family: 'bad script';
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
